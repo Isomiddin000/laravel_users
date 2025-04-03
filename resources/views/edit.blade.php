@@ -6,6 +6,7 @@
     body {
       background-color: #b138c6; 
     }
+    
   </style>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 @endsection
