@@ -13,6 +13,7 @@
                 <h2 class="text-center">Register</h2>
                 <form action="{{route('register')}}" method="POST" enctype="multipart/form-data">
                     @csrf
+                    
                     <div class="form-group">
                         <label for="registerName">Name</label>
                         <input type="text" class="form-control" id="registerName" name="name">
