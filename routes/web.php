@@ -8,7 +8,6 @@ Route::get('/', function () {
     return view('register');
 });
 
-
 Route::resource('users',UserController::class)->names('users');
 Route::get('/logout',[UserController::class,'logout'])->name('logout');
 Route::post('/login',[UserController::class,'login'])->name('login');
