@@ -12,6 +12,7 @@
                 <h2 class="text-center">Login</h2>
                 <form action="{{route('login')}}" method="POST" enctype="multipart/form-data">
                 @csrf
+                
                     <div class="form-group">
                         <label for="loginEmail">Email address</label>
                         <input type="email" class="form-control" id="loginEmail" name="email">
