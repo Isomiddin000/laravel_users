@@ -1,11 +1,7 @@
 @extends('layouts.app')
 @section('title','Register')
 @section('content')
-<style>
-    body {
-      background-color: #b138c6; 
-    }
-  </style>
+
   
     <div class="container mt-5">
         <div class="row">
