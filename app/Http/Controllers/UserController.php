@@ -11,6 +11,7 @@ use App\Http\Requests\LoginRequest;
 use App\Http\Requests\RegisterRequest;
 use App\Http\Requests\UpdateProfileRequest;
 
+
 class UserController extends Controller
 {
     public function index()
