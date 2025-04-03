@@ -12,6 +12,7 @@
 @section('dashboard')
     <a class="nav-link" href="{{ route('logout') }}">Logout</a>
 @endsection
+
 <div class="container mt-5">
     <h2 class="text-center">Welcome to Your Dashboard</h2>
     <div class="row justify-content-center mt-4">
