@@ -11,6 +11,7 @@ class LoginRequest extends FormRequest
     }
 
     
+    
     public function rules()
     {
         return [
